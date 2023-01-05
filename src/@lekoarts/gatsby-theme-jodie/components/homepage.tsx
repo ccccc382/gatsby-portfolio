@@ -65,7 +65,7 @@ const Homepage: React.FC<PageProps<JodieHomepageProps>> = ({ data: { pages, proj
           {items.length > 0 ? (
             items.map((item, index) => (
               <GridItem to={item.slug} className="item" key={item.title} sx={itemStyles} data-testid={item.title}>
-                <GatsbyImage className="FrontPageImage"
+                <GatsbyImage className="GreyScalePageImage"
                   loading={index === 0 ? `eager` : `lazy`}
                   image={item.cover.childImageSharp.gatsbyImageData}
                   alt=""
