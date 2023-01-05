@@ -36,9 +36,9 @@ span{
 
 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
 .logoImg{
 width: 80px;
 height: 80px;
 }
-}
+  }
