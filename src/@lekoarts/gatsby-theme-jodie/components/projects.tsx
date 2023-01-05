@@ -5,7 +5,7 @@ import type { HeadFC, PageProps } from "gatsby"
 import { IGatsbyImageData, GatsbyImage } from "gatsby-plugin-image"
 import Layout from "@lekoarts/gatsby-theme-jodie/src/components/layout"
 import Seo from "@lekoarts/gatsby-theme-jodie/src/components/seo"
-import GridItem from "./grid-item"
+import GridItem from "@lekoarts/gatsby-theme-jodie/src/components/grid-item"
 import locales from "@lekoarts/gatsby-theme-jodie/src/locales"
 import { visuallyHidden } from "@lekoarts/gatsby-theme-jodie/src/styles/utils"
 
