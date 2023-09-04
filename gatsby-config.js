@@ -15,10 +15,10 @@ module.exports = {
     siteHeadline: `Colin Gerritsen - Design & Theater`,
     siteUrl: `https://colingerritsen.nl`,
     siteDescription: `Personal portfolio of Colin Gerritsen`,
-    siteImage: `/banner.jpg`,
+    siteImage: `/banner.png`,
     author: `Colin Gerritsen`,
   },
-  trailingSlash: `never`,
+  trailingSlash: `always`,
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-jodie`,
